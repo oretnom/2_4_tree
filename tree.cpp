@@ -3,6 +3,7 @@
 tree::tree(){
 	root.size = 0;
 	root.depth = 0;
+	root.parent = NULL;
 }
 //Standard destructor
 tree::~tree(){}
@@ -11,8 +12,8 @@ tree::~tree(){}
 void tree::insert(int key){
 	int temp,temp1;
 	if (root.size==0){
-		root.key[0] = key;
-		root.size = 1;
+		root.key[0]=key;
+		root.size=1;
 		cout << "inserted value " << root.key[0] << " at position 0 of node" << endl;
 	}
 	else if(root.size==1){
@@ -48,6 +49,11 @@ void tree::insert(int key){
 		cout << "inserted value " << root.key[1] << " at position 1 of node" << endl;
 		}
 		root.size = 3;
+	}
+//If the node is full, we create a new node to insert more data
+	else{
+		node child0;
+		root.child[0] = &child0;
 	}
 //	cout << root.key[0] << endl;
 }
