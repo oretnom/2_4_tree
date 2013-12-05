@@ -16,7 +16,7 @@ class tree{
 	public:
 		tree();
 		~tree();
-		node *root;
+		node root;
 		
 		void insert(int key);
 		void search(int key);

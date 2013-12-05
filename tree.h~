@@ -7,7 +7,7 @@ struct node{
 
 	int size;
 	int depth;
-	int *key[3];
+	int key[3];
 
 };
 
