@@ -8,7 +8,7 @@ struct node{
 	int size;
 	int depth;
 	int key[3];
-
+	node *parent;
 };
 
 class tree{

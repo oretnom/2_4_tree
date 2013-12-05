@@ -6,9 +6,10 @@ tree::tree(){
 }
 //Standard destructor
 tree::~tree(){}
-//Insert function: Compares which "slots" are empty in each node
+//Insert function: Compares which "slots" are empty in each node. Also compares values to insert in the
+//right position
 void tree::insert(int key){
-	int temp;
+	int temp,temp1;
 	if (root.size==0){
 		root.key[0] = key;
 		root.size = 1;
@@ -26,12 +27,27 @@ void tree::insert(int key){
 			cout << "inserted value " << root.key[0] << " at position 0 of node" << endl;
 		}
 		root.size = 2;
-		cout << "inserted value " << root.key[1] << endl;
 	}
 	else if(root.size==2){
-		root.key[2] = key;
+		if(key>root.key[0] && key>root.key[1]){
+			root.key[2] = key;
+			cout << "inserted value " << root.key[2] << " at position 2 of node" << endl;
+		}
+		else if(key<root.key[0] && key<root.key[1]){
+			temp = root.key[0];
+			temp1 = root.key[1];
+			root.key[0]=key;
+			root.key[1]=temp;
+			root.key[2]=temp1;
+			cout << "inserted value " << root.key[0] << " at position 0 of node" << endl;
+		}	
+		else if(key>=root.key[0] && key<=root.key[1]){
+		temp = root.key[1];
+		root.key[1]=key;
+		root.key[2]=temp;
+		cout << "inserted value " << root.key[1] << " at position 1 of node" << endl;
+		}
 		root.size = 3;
-		cout << "inserted value " << root.key[2] << endl;
 	}
 //	cout << root.key[0] << endl;
 }
