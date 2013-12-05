@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.29)  5 DEC 2013 12:18
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.29)  5 DEC 2013 12:31
 entering extended mode
  %&-line parsing enabled.
 **refman
@@ -972,6 +972,9 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+
+Underfull \vbox (badness 4779) has occurred while \output is active []
+
  [1
 
 ])
@@ -982,7 +985,8 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <7> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 61.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 6.29996pt on input line 61.
- [2]
+
+[2]
 Package hyperref Info: Option `pageanchor' set `true' on input line 63.
 
 Chapter 1.
@@ -1013,67 +1017,73 @@ Chapter 2.
 ]
 Chapter 3.
 (./structnode.tex
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 6.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 11.
  (/usr/share/texmf-texlive/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 8.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 13.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 8.
+(Font)              scaled to size 10.79993pt on input line 13.
 LaTeX Font Info:    Font shape `OT1/phv/bc/n' will be
-(Font)              scaled to size 10.79993pt on input line 8.
-LaTeX Font Info:    Try loading font information for TS1+phv on input line 11.
+(Font)              scaled to size 10.79993pt on input line 13.
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 16.
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 11.
+(Font)              scaled to size 8.99994pt on input line 16.
 LaTeX Font Info:    Font shape `OT1/phv/bc/n' will be
-(Font)              scaled to size 8.99994pt on input line 26.
-) (./classtree.tex
-[5]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 40.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\sim' on input line 40.
+(Font)              scaled to size 8.99994pt on input line 34.
+ [5]) (./classtree.tex
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 17.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 8.09995pt on input line 17.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 40.
+(hyperref)                removing `math shift' on input line 52.
 
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\sim' on input line 52.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 52.
+
+[6]
 LaTeX Font Info:    Font shape `OT1/phv/bc/it' in size <10> not available
-(Font)              Font shape `OT1/phv/bc/sl' tried instead on input line 50.
+(Font)              Font shape `OT1/phv/bc/sl' tried instead on input line 66.
 LaTeX Font Info:    Font shape `OT1/phv/bc/sl' will be
-(Font)              scaled to size 8.99994pt on input line 50.
-) [6]
-Chapter 4.
-(./main_8cpp.tex) (./node_8h.tex) (./tree_8cpp.tex) (./tree_8h.tex [7
+(Font)              scaled to size 8.99994pt on input line 66.
+) [7] [8
 
-])
-(./refman.ind) [8] (./refman.aux) ) 
+]
+Chapter 4.
+(./main_8cpp.tex) (./node_8h.tex) (./tree_8cpp.tex) (./tree_8h.tex [9])
+(./refman.ind) [10] (./refman.aux) ) 
 Here is how much of TeX's memory you used:
- 9802 strings out of 493848
- 133501 string characters out of 1152823
+ 9812 strings out of 493848
+ 133622 string characters out of 1152823
  235696 words of memory out of 3000000
- 12793 multiletter control sequences out of 15000+50000
- 53499 words of font info for 71 fonts, out of 3000000 for 9000
+ 12797 multiletter control sequences out of 15000+50000
+ 56515 words of font info for 73 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 41i,12n,58p,304b,334s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf-texlive/fonts/enc/dvips/ba
-se/8r.enc}</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
-texmf-texlive/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-texlive/font
-s/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helve
-tic/uhvb8ac.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvbo8ac.pfb
-></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on refman.pdf (12 pages, 103147 bytes).
+ 41i,12n,58p,409b,390s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf-texlive/fonts/enc/dvips/b
+ase/8r.enc}</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
+/texmf-texlive/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-texlive/fon
+ts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helv
+etic/uhvb8ac.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvbo8ac.pf
+b></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/tex
+mf-texlive/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on refman.pdf (14 pages, 115965 bytes).
 PDF statistics:
- 293 PDF objects out of 1000 (max. 8388607)
- 61 named destinations out of 1000 (max. 500000)
- 225 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 316 PDF objects out of 1000 (max. 8388607)
+ 65 named destinations out of 1000 (max. 500000)
+ 241 words of extra memory for PDF output out of 10000 (max. 10000000)
 

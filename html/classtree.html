@@ -84,6 +84,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <!-- doxytag: class="tree" -->
+<p>Class tree has only one root node initially.  
+ <a href="classtree.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="tree_8h_source.html">tree.h</a>&gt;</code></p>
 
 <p><a href="classtree-members.html">List of all members.</a></p>
@@ -91,14 +94,19 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtree.html#a9f2a566ac2710fafc31232456780e82d">tree</a> ()</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The class creator initializes variables size and depth to zero, since nodes are empty.  <a href="#a9f2a566ac2710fafc31232456780e82d"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtree.html#a05f3faa3c9a8f6fed237e2d0f6172244">~tree</a> ()</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Standard destructor.  <a href="#a05f3faa3c9a8f6fed237e2d0f6172244"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtree.html#ae07bbaa33c8998156793025197f94a7e">insert</a> (int key)</td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert function: Compares which "slots" are empty in each node. Also compares values to insert in the right position.  <a href="#ae07bbaa33c8998156793025197f94a7e"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtree.html#a70b27ff892cb18aac183f210148a84fa">search</a> (int key)</td></tr>
 <tr><td colspan="2"><h2><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="structnode.html">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtree.html#aa9cfd84afe70806aeca40a8e15cd7b84">root</a></td></tr>
 </table>
-<hr/><h2>Constructor &amp; Destructor Documentation</h2>
+<hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
+<div class="textblock"><p>Class tree has only one root node initially. </p>
+</div><hr/><h2>Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a9f2a566ac2710fafc31232456780e82d"></a><!-- doxytag: member="tree::tree" ref="a9f2a566ac2710fafc31232456780e82d" args="()" -->
 <div class="memitem">
 <div class="memproto">
@@ -112,6 +120,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+
+<p>The class creator initializes variables size and depth to zero, since nodes are empty. </p>
 
 </div>
 </div>
@@ -128,6 +138,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+
+<p>Standard destructor. </p>
 
 </div>
 </div>
@@ -146,6 +158,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+
+<p>Insert function: Compares which "slots" are empty in each node. Also compares values to insert in the right position. </p>
+<p>If the node is full, we create a new node to insert more data </p>
 
 </div>
 </div>
@@ -202,7 +217,7 @@ Public Attributes</h2></td></tr>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Dec 5 2013 12:18:15 for My Project by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Dec 5 2013 12:31:11 for My Project by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

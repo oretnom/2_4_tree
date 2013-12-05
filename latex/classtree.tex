@@ -3,17 +3,22 @@
 }
 
 
+\-Class tree has only one root node initially.  
+
+
+
+
 {\ttfamily \#include $<$tree.\-h$>$}
 
 \subsection*{\-Public \-Member \-Functions}
 \begin{DoxyCompactItemize}
 \item 
 \hyperlink{classtree_a9f2a566ac2710fafc31232456780e82d}{tree} ()
-\item 
+\begin{DoxyCompactList}\small\item\em \-The class creator initializes variables size and depth to zero, since nodes are empty. \end{DoxyCompactList}\item 
 \hyperlink{classtree_a05f3faa3c9a8f6fed237e2d0f6172244}{$\sim$tree} ()
-\item 
+\begin{DoxyCompactList}\small\item\em \-Standard destructor. \end{DoxyCompactList}\item 
 void \hyperlink{classtree_ae07bbaa33c8998156793025197f94a7e}{insert} (int key)
-\item 
+\begin{DoxyCompactList}\small\item\em \-Insert function\-: \-Compares which \char`\"{}slots\char`\"{} are empty in each node. \-Also compares values to insert in the right position. \end{DoxyCompactList}\item 
 void \hyperlink{classtree_a70b27ff892cb18aac183f210148a84fa}{search} (int key)
 \end{DoxyCompactItemize}
 \subsection*{\-Public \-Attributes}
@@ -23,6 +28,9 @@ void \hyperlink{classtree_a70b27ff892cb18aac183f210148a84fa}{search} (int key)
 \end{DoxyCompactItemize}
 
 
+\subsection{\-Detailed \-Description}
+\-Class tree has only one root node initially. 
+
 \subsection{\-Constructor \& \-Destructor \-Documentation}
 \hypertarget{classtree_a9f2a566ac2710fafc31232456780e82d}{\index{tree@{tree}!tree@{tree}}
 \index{tree@{tree}!tree@{tree}}
@@ -31,6 +39,10 @@ void \hyperlink{classtree_a70b27ff892cb18aac183f210148a84fa}{search} (int key)
 {}
 \end{DoxyParamCaption}
 )}}\label{classtree_a9f2a566ac2710fafc31232456780e82d}
+
+
+\-The class creator initializes variables size and depth to zero, since nodes are empty. 
+
 \hypertarget{classtree_a05f3faa3c9a8f6fed237e2d0f6172244}{\index{tree@{tree}!$\sim$tree@{$\sim$tree}}
 \index{$\sim$tree@{$\sim$tree}!tree@{tree}}
 \subsubsection[{$\sim$tree}]{\setlength{\rightskip}{0pt plus 5cm}{\bf tree\-::$\sim$tree} (
@@ -38,6 +50,10 @@ void \hyperlink{classtree_a70b27ff892cb18aac183f210148a84fa}{search} (int key)
 {}
 \end{DoxyParamCaption}
 )}}\label{classtree_a05f3faa3c9a8f6fed237e2d0f6172244}
+
+
+\-Standard destructor. 
+
 
 
 \subsection{\-Member \-Function \-Documentation}
@@ -48,7 +64,11 @@ void \hyperlink{classtree_a70b27ff892cb18aac183f210148a84fa}{search} (int key)
 \item[{int}]{key}
 \end{DoxyParamCaption}
 )}}\label{classtree_ae07bbaa33c8998156793025197f94a7e}
-\hypertarget{classtree_a70b27ff892cb18aac183f210148a84fa}{\index{tree@{tree}!search@{search}}
+
+
+\-Insert function\-: \-Compares which \char`\"{}slots\char`\"{} are empty in each node. \-Also compares values to insert in the right position. 
+
+\-If the node is full, we create a new node to insert more data \hypertarget{classtree_a70b27ff892cb18aac183f210148a84fa}{\index{tree@{tree}!search@{search}}
 \index{search@{search}!tree@{tree}}
 \subsubsection[{search}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf tree\-::search} (
 \begin{DoxyParamCaption}

@@ -1,14 +1,13 @@
 #include "tree.h"
-//The class creator initializes variables size and depth to zero, since nodes are empty
+///The class creator initializes variables size and depth to zero, since nodes are empty
 tree::tree(){
 	root.size = 0;
 	root.depth = 0;
 	root.parent = NULL;
 }
-//Standard destructor
+///Standard destructor
 tree::~tree(){}
-//Insert function: Compares which "slots" are empty in each node. Also compares values to insert in the
-//right position
+///Insert function: Compares which "slots" are empty in each node. Also compares values to insert in the right position
 void tree::insert(int key){
 	int temp,temp1;
 	if (root.size==0){
@@ -50,7 +49,7 @@ void tree::insert(int key){
 		}
 		root.size = 3;
 	}
-//If the node is full, we create a new node to insert more data
+///If the node is full, we create a new node to insert more data
 	else{
 		node child0;
 		root.child[0] = &child0;
